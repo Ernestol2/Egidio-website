@@ -1,0 +1,88 @@
+* {
+    font-family: 'Heebo', sans-serif;
+}
+
+/* top navigation */
+
+.top .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top .navbar-nav a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+/* navigation */
+
+.navbar-brand img {
+    width: 250px;
+    height: 40px;
+}
+
+.navbar-collapse {
+    flex-grow: 0 !important;
+}
+
+.navbar-collapse .me-auto a {
+    font-size: 1.2rem;
+} 
+
+/* hero */
+
+.hero {
+    width: 100%;
+    min-height: 700px;
+    background-image: url(./images/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    padding: 2rem;
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+/* servicios */
+
+.servicios {
+    padding: 4rem;
+    min-height: 800px;
+}
+
+.servicios .divider {
+    min-height: 60px;
+}
+
+.servicios h2 {
+    font-weight: 400;
+    font-size: 2.5rem;
+}
+
+.servicios .items {
+    padding: 2rem;
+}
+
+.servicios .items svg {
+    color: rgb(51, 51, 129);
+}
+
+/* media querys */
+
+@media screen and (max-width: 800px) {
+    body .top {
+      display: none;
+    }
+  }
