@@ -63,7 +63,7 @@
 }
 
 .servicios .divider {
-    min-height: 60px;
+    min-height: 40px;
 }
 
 .servicios h2 {
@@ -76,8 +76,64 @@
 }
 
 .servicios .items svg {
-    color: rgb(51, 51, 129);
+    color: #333381;
 }
+
+/* dual container */
+
+.dual {
+    padding-bottom: 4rem;
+}
+
+.dual .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    border-radius: 0px !important;
+    border: none !important;
+}
+
+.card img {
+    opacity: 0.5;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-body div {
+    font-size: large;
+    font-weight: 800;
+}
+
+.card .card-body {
+    font-size: small;
+    font-weight: 400;
+}
+
+
+/* footer */
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 2rem 0;
+  }
+  
+  .footer h4 {
+    margin-bottom: 1rem;
+  }
+  
+  .footer p {
+    margin: 0.5rem 0;
+  }
+  
+
 
 /* media querys */
 
