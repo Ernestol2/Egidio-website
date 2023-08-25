@@ -1,20 +1,24 @@
 import { Container, Row, Col } from 'react-bootstrap';
+import {BsInstagram, BsFacebook, BsWhatsapp} from 'react-icons/bs'
 
 function Footer() {
   return (
     <footer className="footer">
       <Container>
-        <Row>
+        <Row className='g-4 text-center p-4'>
           <Col md={6}>
-            <h4>About Us</h4>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque nunc vel lorem scelerisque, sit amet interdum arcu condimentum.
-            </p>
+            <h4>Nuestras redes</h4>
+            <div className='socials'>
+              <BsInstagram size={30}/>
+              <BsFacebook size={30}/>
+              <BsWhatsapp size={30}/>
+            </div>
           </Col>
           <Col md={6}>
-            <h4>Contact Us</h4>
-            <p>Email: info@example.com</p>
-            <p>Phone: (123) 456-7890</p>
+            <h4>Contactanos</h4>
+            <p>Email: Solucioneseyfca@gmail.com</p>
+            <p>Telefonos: (0412) 186-7864</p>
+            <p>Telefonos: (0412) 837-3251</p>
           </Col>
         </Row>
       </Container>

@@ -1,5 +1,5 @@
 import './App.css'
-import Dual from './components/Dual';
+import Cards from './components/Cards';
 import Footer from './components/Footer';
 import Hero from './components/Hero';
 import Navigation from './components/Navigation';
@@ -14,8 +14,8 @@ function App() {
       <TopNavigation />
       <Navigation />
       <Hero />
+      <Cards />
       <Servicios />
-      <Dual />
       <Footer />
     </>
   )

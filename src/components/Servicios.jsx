@@ -9,7 +9,7 @@ export default function Servicios() {
   return (
     <div className="servicios-container">
         <Container className="servicios">
-            <h2 className="text-center p-2">NUESTROS SERVICIOS</h2>
+            <h2 className="text-center p-2">SERVICIOS ADICIONALES</h2>
             <hr />
             <div className="divider"></div>
             <Row className="items">
