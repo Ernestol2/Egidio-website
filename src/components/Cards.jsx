@@ -12,7 +12,7 @@ export default function Dual() {
             {serviciosDB.map(servicio => (
               <Col className="left"  md={6} lg={4} key={servicio.id}>
               <Card className="bg-dark text-white">
-                <Card.Img src={servicio.image} alt="Card image" fluid/>
+                <Card.Img src={servicio.image} alt="Card image"/>
                 <Card.Body>
                   <Card.Title>{servicio.name}</Card.Title>
                   <Card.Text>

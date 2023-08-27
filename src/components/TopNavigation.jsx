@@ -16,7 +16,7 @@ export default function TopNavigation() {
                 0412-1867864  -  0412-8373251</Nav.Link>
                 <Nav.Link>
                 <CiMail size={30}/>
-                Solucioneseyfca@gamil.com</Nav.Link>
+                Solucioneseyfca@gmail.com</Nav.Link>
             </Nav>
         </Container>
     </Navbar>

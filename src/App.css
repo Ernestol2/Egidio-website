@@ -138,8 +138,26 @@
     justify-content: space-around;
     align-items: end;
   }
-  
 
+  /* formulario */
+
+.formulario {
+    min-height: 600px;
+    background-color: #03455e;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.formulario h1 {
+    font-weight: 400;
+}
+
+.formulario .container {
+    width: 35%;
+    margin: 1rem;
+}
 
 /* media querys */
 
@@ -150,5 +168,9 @@
 
     .hero h1 {
         font-size: 2.5rem;
+    }
+
+    .formulario .container {
+        width: 100%;
     }
   }
